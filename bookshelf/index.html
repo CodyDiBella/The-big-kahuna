@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bookshelf</title>
+    <link rel="stylesheet" href="main.css" />
+  </head>
+  <nav>
+    <ul>
+      <li><a href="./index.html">Home</a></li>
+      <li><a href="./about.html" target="_blank">About</a></li>
+      <li><a href="./contact.html" target="_blank">Contact</a></li>
+    </ul>
+  </nav>
+  <body>
+    <!-- <div id="commentPage" class="hidden">
+      <button class="closeComment">X</button>
+      <input placeholder="Leave your comment" id="commentClear" />
+      <button class="submitComment">Submit</button>
+    </div> -->
+    <div class="utilities">
+      <!-- <section class="sort">
+        <label>Sort by</label>
+        <select class="sortBy">
+          <option value="titleaz">Title A-Z</option>
+          <option value="titleza">Title Z-A</option>
+        </select>
+      </section> -->
+      <section>
+        <button class="addBookBtn">Add a new book</button>
+      </section>
+      <section class="search">
+        <input placeholder="Search" id="searchBar" />
+        <button class="searchBtn">Search</button>
+      </section>
+      <!-- <section>
+        <button class="addComBtn">Add a comment</button>
+      </section> -->
+      <section>
+        You have <span class="favCount">0</span> favorite books.
+      </section>
+    </div>
+    <main id="app">
+      <!-- <div id="overlay"></div>
+      <div id="userPrompt">
+        <label for="username">Username: <input required></label>
+        <label for="password">Password: <input required type="password"></label>
+        <button id="registerButt">Register</button>
+      </div> -->
+      <ul class="books"></ul>
+    </main>
+
+    <script src="js/book-data.js"></script>
+    <script src="index.js"></script>
+  </body>
+</html>
